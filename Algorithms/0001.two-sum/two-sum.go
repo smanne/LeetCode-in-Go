@@ -1,20 +1,25 @@
 package problem0001
 
+/**
+1. Create a map to store all numbers
+2. Iterate through all numbers - num
+3. check if target - num is available in map - if yes return 
+4. Store number in map while iterating
+5. If nothing matches return nil
+**/
 func twoSum(nums []int, target int) []int {
-	// index 负责保存map[整数]整数的序列号
+	// map to store nums while iterating
 	index := make(map[int]int, len(nums))
 
-	// 通过 for 循环，获取b的序列号
+	// Iterate over nums
 	for i, b := range nums {
-		// 通过查询map，获取a = target - b的序列号
+		// check if target - num available in map already
 		if j, ok := index[target-b]; ok {
-			// ok 为 true
-			// 说明在i之前，存在 nums[j] == a
+			// if available return it
 			return []int{j, i}
-			// 注意，顺序是j，i
 		}
 
-		// 把b和i的值，存入map
+		// Add current number to map
 		index[b] = i
 	}
 
