@@ -1,4 +1,5 @@
-# [1. Two Sum](https://leetcode.com/problems/two-sum/)
+# [1. Two Sum](https://leetcode.com/problems/two-sum/) 
+[**Easy**](https://leetcode.com/problemset/all/?difficulty=Easy) - [```Array```](https://leetcode.com/tag/array/),[```Hash Table```](https://leetcode.com/tag/hash-table/)
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
