@@ -1,6 +1,6 @@
 # [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 
-## 题目
+
 Given an array of non-negative integers, you are initially positioned at the first index of the array.
 
 Each element in the array represents your maximum jump length at that position.
@@ -18,9 +18,10 @@ Note:
 You can assume that you can always reach the last index.
 ```
 
-## 解题思路
-想清楚，i 定了以后，要保证 next i 为可以 jump 到最远的 i
+**Tutorial:**
 
-## 总结
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/jH_5ypQggWg/0.jpg)](http://www.youtube.com/watch?v=jH_5ypQggWg "Minimum jumps to reach end of array (Dynamic Programming)
+")
 
+https://www.youtube.com/watch?v=jH_5ypQggWg
 
